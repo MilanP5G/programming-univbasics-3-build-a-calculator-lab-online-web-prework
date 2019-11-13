@@ -36,8 +36,8 @@ end
 modulo(34, 5)
 
 def square_root(num)
- puts "Math.sqrt #{num}"
- Math.sqrt
+ puts "Integer.sqrt #{num}"
+ Integer.sqrt num
 end
 
 square_root(81)
